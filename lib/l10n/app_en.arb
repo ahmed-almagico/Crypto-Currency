@@ -4,5 +4,10 @@
     "add_photo" : "Add Photo",
     "change_theme" : "Change Theme",
     "change_language" : "Change Language",
-    "log_out" : "Log out"
+    "log_out" : "Log out",
+    "system" : "System",
+    "light" : "Light",
+    "dark" : "Dark",
+    "english" : "English",
+    "arabic" : "Arabic"
 }

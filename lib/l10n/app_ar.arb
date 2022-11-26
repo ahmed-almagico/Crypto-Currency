@@ -2,9 +2,14 @@
     "frome_gallery": "من الصور",
     "crypto_currency": "عملة مشفرة",
     "add_photo" : "أضافة صورة" ,
-    "change_theme" : "تغيرالواجهة",
+    "change_theme" : "تغير الواجهة",
     "change_language" : "تغير اللغة",
-    "log_out" : "تسجيل الخروج"
+    "log_out" : "تسجيل الخروج",
+    "system" : "النظام",
+    "light" : "ساطع",
+    "dark" : "داكن",
+    "english" : "الانجليزية",
+    "arabic" : "العربية"
 
 
 

@@ -144,7 +144,7 @@ class Profile extends StatelessWidget {
                                     Themes.isDarkMode(context) ? Color(0xff151f2c)
                                         : Colors.blueGrey ,
                                     title: Text(
-                                      'Change Theme :',
+                                      translation(context).change_theme,
                                       style: TextStyle(color: Colors.white),
                                     ),
                                     actions: [
@@ -157,7 +157,7 @@ class Profile extends StatelessWidget {
                                         Get.back() ;
                                               },
                                               child: Text(
-                                                'System',
+                                                translation(context).system,
                                               ),
                                             ),
                                             MaterialButton(
@@ -166,7 +166,7 @@ class Profile extends StatelessWidget {
                                                 Get.back() ;
                                               },
                                               child: Text(
-                                                'Light',
+                                                translation(context).light,
                                                ),
                                               ),
                                             MaterialButton(
@@ -175,7 +175,7 @@ class Profile extends StatelessWidget {
                                                 Get.back() ;
                                               },
                                               child: Text(
-                                                'Dark',
+                                                translation(context).dark,
                                               ),
                                             ),
                                           ],
@@ -185,7 +185,7 @@ class Profile extends StatelessWidget {
                                   ));
                         },
                         child: Text(
-                          'Change Theme',
+                          translation(context).change_theme,
                           style: TextStyle(fontSize: 15),
                         ),
                       ),
@@ -221,7 +221,7 @@ class Profile extends StatelessWidget {
                                   Themes.isDarkMode(context) ? Color(0xff151f2c)
                                       : Colors.blueGrey ,
                                   title: Text(
-                                    'Change Language :'
+                                      translation(context).change_language
                                   ),
                                   actions: [
                                     Center(
@@ -234,7 +234,7 @@ class Profile extends StatelessWidget {
                                               Get.back();
                                             },
                                             child: Text(
-                                              'English',
+                                              translation(context).english,
                                             ),
                                           ),
                                           MaterialButton(
@@ -244,7 +244,7 @@ class Profile extends StatelessWidget {
                                               Get.back();
                                             },
                                             child: Text(
-                                              'Arabic',
+                                              translation(context).arabic,
                                             ),
                                           ),
                                         ],
@@ -253,7 +253,7 @@ class Profile extends StatelessWidget {
                                   ],
                                 )),
                         child: Text(
-                          'Change Language',
+                         translation(context).change_language,
                           style: TextStyle( fontSize: 15),
                         ),
                       ),
@@ -288,7 +288,7 @@ class Profile extends StatelessWidget {
                               .signOut();
                         },
                         child: Text(
-                          'Log out',
+                          translation(context).log_out,
                           style: TextStyle( fontSize: 15),
                         ),
                       ),
