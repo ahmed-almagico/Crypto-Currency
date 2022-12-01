@@ -4,6 +4,7 @@ import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
 
 import '../../core/nav_switch.dart';
 import '../../core/theme.dart';
+import '../../models/language_constant.dart';
 import '../design/home.dart';
 
 class Nav extends StatefulWidget {
@@ -45,15 +46,15 @@ class _MyHomePageState extends State<Nav> {
     barItems: <BarItem>[
     BarItem(
     icon: Icons.home,
-    title: 'Home',
+    title: translation(context).home,
     ),
     BarItem(
     icon: Icons.search_rounded,
-    title: 'Search',
+    title: translation(context).search,
     ),
     BarItem(
     icon: Icons.person,
-    title: 'Profile',
+    title: translation(context).profile,
     ),
     ],
     ),

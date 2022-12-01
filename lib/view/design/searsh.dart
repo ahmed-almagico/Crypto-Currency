@@ -4,6 +4,7 @@ import 'package:graduation_project/provider/search_provider.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/theme.dart';
+import '../../models/language_constant.dart';
 import '../../models/serach_model.dart';
 
 class Search extends StatelessWidget {
@@ -28,7 +29,7 @@ class Search extends StatelessWidget {
                     } ,
                     controller: search ,
                     decoration: InputDecoration(
-                        hintText: 'Searsh....',
+                        hintText: translation(context).stext,
                         prefixIcon: Icon(
                           Icons.search,
                         ),
@@ -52,7 +53,7 @@ class Search extends StatelessWidget {
                       SizedBox(height: MediaQuery.of(context).size.height*.2,),
                       SvgPicture.asset('assets/undraw_the_search_s0xf.svg' , width: 200,),
                       SizedBox(height: MediaQuery.of(context).size.height * 0.01,),
-                      Text('Search For a Coin',style: TextStyle(fontSize: 17),)
+                      Text( translation(context).coin,style: TextStyle(fontSize: 17),)
                     ],
                   ),
                 ) : Container(

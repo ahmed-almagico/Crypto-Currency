@@ -9,5 +9,10 @@
     "light" : "Light",
     "dark" : "Dark",
     "english" : "English",
-    "arabic" : "Arabic"
+    "arabic" : "Arabic" ,
+    "home" : "Home" ,
+    "search" : "Search" ,
+    "profile" : "Profile",
+    "coin" : "Search For a Coin",
+     "stext" : "Searsh...."
 }
